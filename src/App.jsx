@@ -6,7 +6,7 @@ import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
   return (
-    <div className='w-full min-h-screen h-fit flex  justify-center bg-[url(/bgLove.png)] overflow-hidden p-2'>
+    <div className='w-full min-h-screen h-fit flex  justify-center bg-[url(/bglove.png)] overflow-hidden p-2'>
       <Routes>
         <Route path='/' element={ <YesOrYes/>}/>
         <Route path='*' element={ <PageNotFound/>}/>
