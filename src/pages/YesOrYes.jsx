@@ -35,7 +35,7 @@ const YesOrYes = () => {
         </h2>
 
         <div className="my-5">
-          <img className="md:size-80 size-50" src={imageC ? '/public/angrykedy.png':'/public/waiting.png'} alt="" />
+          <img className="md:size-80 size-50" src={imageC ? '/angrykedy.png':'/waiting.png'} alt="" />
         </div>
 
         <div
